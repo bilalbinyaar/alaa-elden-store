@@ -7,3 +7,131 @@
   font-family: 'Inter', sans-serif;
   font-family: 'Raleway', sans-serif;
 }
+
+:root {
+  --primary-color: #50d890;
+  --optional-color: #3c79f5;
+  --white-color: #ffffff;
+  --black-color: #282c35;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 4rem;
+}
+
+@media screen and (min-width: 1880px) {
+  .container {
+    width: 68%;
+  }
+}
+
+@media screen and (min-width: 1880px) {
+  .container {
+    width: 68%;
+  }
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 568px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 11px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+}
+
+/* TOP BAR CSS */
+.top-bar {
+  width: 100%;
+  background-color: var(--black-color);
+  height: 6vh;
+  display: flex;
+  align-items: center;
+}
+
+.top-bar .container {
+  padding-top: 0;
+}
+
+.top-bar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar-text {
+  width: 85%;
+}
+
+.top-bar-text p {
+  color: var(--white-color);
+  text-align: center;
+}
+
+.top-bar-lang {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.lang-text p {
+  color: var(--white-color);
+}
+
+.flag-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.6rem;
+}
+
+.flag-div img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.colen-div {
+  margin: 0 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-color);
+  padding: 0.5px;
+  height: 22px;
+}
