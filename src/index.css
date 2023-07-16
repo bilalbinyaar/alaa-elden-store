@@ -18,7 +18,7 @@
 .container {
   width: 90%;
   margin: 0 auto;
-  padding-top: 3rem;
+  padding-top: 4rem;
 }
 
 @media screen and (min-width: 1880px) {
@@ -168,7 +168,7 @@ p {
 }
 
 .nav-ul li:hover {
-  background-color: #3c79f5;
+  background-color: var(--black-color);
   color: var(--white-color);
   border-radius: 15px;
   cursor: pointer;
@@ -193,7 +193,7 @@ p {
 }
 
 .nav-search-bar input[type='text']:focus {
-  border: 1px solid var(--optional-color);
+  border: 1px solid var(--black-color);
   box-shadow: 0 0 10px #2b2b2b27;
   outline: none;
 }
@@ -236,4 +236,118 @@ p {
 .slide-div img {
   border-radius: 22px;
   cursor: pointer;
+}
+
+.category-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: var(--black-color);
+}
+
+.category {
+  padding: 1.2rem;
+  margin: 0.4rem 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 20px;
+  transition: 0.5s all ease-in-out;
+}
+
+.category:hover {
+  background-color: #2b2b2b27;
+  /* border: 1px solid var(--black-color); */
+  transition: 0.5s all ease-in-out;
+}
+
+.submenu {
+  margin-top: 5px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.submenu li {
+  text-align: center;
+  padding: 0.8rem;
+  margin: 0.4rem 0;
+  cursor: default;
+  font-size: 12px;
+  color: var(--black-color);
+  font-weight: 600;
+  transition: 0.5s all ease-in-out;
+}
+
+.submenu li:hover {
+  cursor: pointer;
+  color: var(--white-color);
+  background-color: var(--black-color);
+  border-radius: 12px;
+  transition: 0.5s all ease-in-out;
+}
+
+/* CSS BROWSE BY CATEGORY */
+.section-tag {
+  display: flex;
+  align-items: center;
+}
+
+.tag-shape {
+  padding: 1rem 0.5rem;
+  background-color: var(--optional-color);
+  border-radius: 3px;
+  margin-right: 0.8rem;
+}
+
+.tag-title h3 {
+  color: var(--optional-color);
+}
+
+.section-title {
+  margin: 2rem 0;
+}
+
+.section-title h2 {
+  font-size: 32px;
+}
+
+.browse-category-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.browse-category-items {
+  padding: 2rem;
+  border: 1px solid #2b2b2b27;
+  width: 350px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+
+.browse-category-items:hover {
+  background-color: var(--optional-color);
+  transition: 0.5s all ease-in-out;
+}
+
+.category-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.category-item svg {
+  width: 36px;
+  height: auto;
+  color: var(--black-color);
+  margin-bottom: 0.8rem;
+}
+
+.category-item h2 {
+  color: var(--black-color);
 }
