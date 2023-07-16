@@ -12,9 +12,9 @@ const Navbar = () => {
           <div className="nav-links">
             <ul className="nav-ul">
               <li>Home</li>
+              <li>Shop</li>
               <li>Contact</li>
-              <li>About</li>
-              <li>Sign Up</li>
+              <li>My Account</li>
             </ul>
           </div>
           <div className="search-cart">

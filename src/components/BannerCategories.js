@@ -31,6 +31,7 @@ const BannerCategories = () => {
 
   return (
     <div className="banner-categories">
+      <h2>Categories</h2>
       <div className="sidebar">
         <ul className="category-list">
           {categories.map((category) => (

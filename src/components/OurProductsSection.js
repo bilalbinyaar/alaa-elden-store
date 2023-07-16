@@ -1,5 +1,10 @@
 import React from 'react';
-import ourProduct from '../assets/our-product.jpg';
+import p_1 from '../assets/products/p-1.png';
+import p_2 from '../assets/products/p-2.png';
+import p_3 from '../assets/products/p-3.png';
+import p_4 from '../assets/products/p-4.png';
+import p_5 from '../assets/products/p-5.png';
+import p_6 from '../assets/products/p-6.png';
 import { AiFillStar } from 'react-icons/ai';
 
 const OurProductsSection = () => {
@@ -18,7 +23,7 @@ const OurProductsSection = () => {
         <div className="our-products-wrapper">
           <div className="our-products-items mb-items">
             <div className="our-products-item">
-              <img src={ourProduct} alt="product" />
+              <img src={p_2} alt="product" />
               <button>Add to cart</button>
               <h3>Lorem ipsum dolor</h3>
               <div className="price-rating">
@@ -48,7 +53,7 @@ const OurProductsSection = () => {
               </div>
             </div>
             <div className="our-products-item">
-              <img src={ourProduct} alt="product" />
+              <img src={p_1} alt="product" />
               <button>Add to cart</button>
               <h3>Lorem ipsum dolor</h3>
               <div className="price-rating">
@@ -78,7 +83,7 @@ const OurProductsSection = () => {
               </div>
             </div>
             <div className="our-products-item">
-              <img src={ourProduct} alt="product" />
+              <img src={p_2} alt="product" />
               <button>Add to cart</button>
               <h3>Lorem ipsum dolor</h3>
               <div className="price-rating">
@@ -108,7 +113,7 @@ const OurProductsSection = () => {
               </div>
             </div>
             <div className="our-products-item">
-              <img src={ourProduct} alt="product" />
+              <img src={p_3} alt="product" />
               <button>Add to cart</button>
               <h3>Lorem ipsum dolor</h3>
               <div className="price-rating">
@@ -140,7 +145,7 @@ const OurProductsSection = () => {
           </div>
           <div className="our-products-items .mb-items">
             <div className="our-products-item">
-              <img src={ourProduct} alt="product" />
+              <img src={p_4} alt="product" />
               <button>Add to cart</button>
               <h3>Lorem ipsum dolor</h3>
               <div className="price-rating">
@@ -170,7 +175,7 @@ const OurProductsSection = () => {
               </div>
             </div>
             <div className="our-products-item">
-              <img src={ourProduct} alt="product" />
+              <img src={p_5} alt="product" />
               <button>Add to cart</button>
               <h3>Lorem ipsum dolor</h3>
               <div className="price-rating">
@@ -200,7 +205,7 @@ const OurProductsSection = () => {
               </div>
             </div>
             <div className="our-products-item">
-              <img src={ourProduct} alt="product" />
+              <img src={p_6} alt="product" />
               <button>Add to cart</button>
               <h3>Lorem ipsum dolor</h3>
               <div className="price-rating">
@@ -230,7 +235,7 @@ const OurProductsSection = () => {
               </div>
             </div>
             <div className="our-products-item">
-              <img src={ourProduct} alt="product" />
+              <img src={p_1} alt="product" />
               <button>Add to cart</button>
               <h3>Lorem ipsum dolor</h3>
               <div className="price-rating">

@@ -1,20 +1,17 @@
-import Banner from './components/Banner';
-import BrowseByCategory from './components/BrowseByCategory';
-import FeatureBanner from './components/FeatureBanner';
+import React from 'react';
 import Navbar from './components/Navbar';
-import OurProductsSection from './components/OurProductsSection';
 import TopBar from './components/TopBar';
+import Home from './screens/Home';
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <TopBar />
       <Navbar />
-      <Banner />
-      <BrowseByCategory />
-      <FeatureBanner />
-      <OurProductsSection />
-    </div>
+      <div>
+        <Home />
+      </div>
+    </React.Fragment>
   );
 }
 
