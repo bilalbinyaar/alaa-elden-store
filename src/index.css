@@ -18,7 +18,7 @@
 .container {
   width: 90%;
   margin: 0 auto;
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 @media screen and (min-width: 1880px) {
@@ -185,9 +185,9 @@ p {
 }
 
 .nav-search-bar input[type='text'] {
-  width: 15vw;
+  width: 18vw;
   height: 5vh;
-  padding: 0.2rem 0.4rem;
+  padding: 0.2rem 0.8rem;
   border: 1px solid #2b2b2b27;
   border-radius: 12px;
 }
@@ -207,4 +207,33 @@ p {
 .cart-icon {
   color: var(--black-color);
   font-size: 22px;
+}
+
+/* BANNER CSS */
+.banner-wrapper {
+  display: flex;
+}
+
+.banner-categories {
+  width: 50%;
+  padding: 1.2rem;
+  border: 1px solid #2b2b2b27;
+  margin-right: 1rem;
+}
+
+.banner-slider {
+  width: 80%;
+  padding: 0 2rem;
+}
+
+.slide-div {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.slide-div img {
+  border-radius: 22px;
+  cursor: pointer;
 }
