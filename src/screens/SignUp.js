@@ -1,7 +1,12 @@
 import React from 'react';
+import SignUpComp from '../components/accounts/SignUpComp';
 
 const SignUp = () => {
-  return <div>SignUp</div>;
+  return (
+    <React.Fragment>
+      <SignUpComp />
+    </React.Fragment>
+  );
 };
 
 export default SignUp;

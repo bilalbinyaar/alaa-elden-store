@@ -7,6 +7,7 @@ import { Route, Routes } from 'react-router-dom';
 import SignUp from './screens/SignUp';
 import Shop from './screens/Shop';
 import Contact from './screens/Contact';
+import Login from './screens/Login';
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/accounts" element={<SignUp />} />
+        <Route path="/sign-up" element={<SignUp />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
     </React.Fragment>
