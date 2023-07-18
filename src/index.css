@@ -161,13 +161,18 @@ p {
 
 .nav-ul li {
   list-style: none;
+}
+
+.nav-ul li a {
+  text-decoration: none;
+  color: var(--black-color);
   font-size: 14px;
   font-weight: 500;
   padding: 0.5rem 1rem;
   margin: 0 0.4rem;
 }
 
-.nav-ul li:hover {
+.nav-ul li a:hover {
   background-color: var(--black-color);
   color: var(--white-color);
   border-radius: 15px;
