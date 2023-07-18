@@ -30,9 +30,11 @@ const Contact = () => {
           </div>
           <div className="contact-right">
             <form className="contact-form">
-              <input type="text" placeholder="Name" />
-              <input type="email" placeholder="Email" />
-              <input type="number" placeholder="Phone" />
+              <div className="form-group">
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="tel" placeholder="Phone" />
+              </div>
               <textarea type="text" placeholder="Message" />
               <input type="submit" value="Send Message" />
             </form>
