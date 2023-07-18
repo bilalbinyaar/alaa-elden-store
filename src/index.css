@@ -640,3 +640,63 @@ p {
   margin-left: 0.4rem;
   color: var(--optional-color);
 }
+
+/* CONTACT CSS */
+.contact .container {
+  padding: 4rem 0rem;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact-left {
+  width: 50%;
+  padding: 1.4rem;
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.1);
+}
+
+.contact-right {
+  width: 100%;
+  padding: 1.4rem;
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.1);
+  margin-left: 2rem;
+}
+
+.contact-left-content {
+  padding: 2rem;
+}
+
+.contact-left-content p {
+  margin-top: 0.8rem;
+}
+
+.contact-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.contact-icon h2 {
+  margin-left: 0.8rem;
+}
+
+.icon-inner {
+  padding: 0.6rem;
+  background-color: var(--optional-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-inner svg {
+  font-size: 22px;
+  color: var(--white-color);
+}
+
+.border-top-contact {
+  border-top: 1px solid #2b2b2b27;
+}
