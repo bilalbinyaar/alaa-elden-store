@@ -8,6 +8,7 @@ import SignUp from './screens/SignUp';
 import Shop from './screens/Shop';
 import Contact from './screens/Contact';
 import Login from './screens/Login';
+import Cart from './screens/Cart';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
       <Footer />
     </React.Fragment>

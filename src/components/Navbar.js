@@ -32,7 +32,9 @@ const Navbar = () => {
               <input type="text" placeholder="What are you looking for?" />
             </div>
             <div className="cart-icon-div">
-              <AiOutlineShoppingCart className="cart-icon" />
+              <Link to="/cart">
+                <AiOutlineShoppingCart className="cart-icon" />
+              </Link>
             </div>
           </div>
         </div>
