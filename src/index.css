@@ -1100,3 +1100,48 @@ a {
   align-self: flex-start;
   align-items: center;
 }
+
+/* SHOP COMPONENT CSS */
+.shop .container {
+  padding: 4rem 0;
+}
+
+.shop-wrapper {
+  display: flex;
+}
+
+.search-fiters {
+  width: 25%;
+  margin-right: 2rem;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #2b2b2b27;
+}
+
+.fiterable-shop {
+  width: 100%;
+}
+
+.categories {
+  margin-bottom: 1.4rem;
+}
+
+.categories button {
+  width: 20%;
+  margin-right: 1rem;
+}
+
+.active {
+  background-color: var(--black-color);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mr-products {
+  margin-right: 0.8rem;
+  margin-top: 1rem;
+  width: 200px;
+}

@@ -1,10 +1,11 @@
 import React from 'react';
+import ShopComp from '../components/ShopComp';
 
 const Shop = () => {
   return (
-    <div className="shop">
-      <div className="container">Shop</div>
-    </div>
+    <React.Fragment>
+      <ShopComp />
+    </React.Fragment>
   );
 };
 
