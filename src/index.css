@@ -402,7 +402,7 @@ a {
 }
 
 .our-products-item {
-  width: 300px;
+  width: 280px;
   /* height: 250px; */
 }
 
@@ -424,6 +424,10 @@ a {
 
 .our-products-item h3 {
   margin-top: 0.8rem;
+}
+
+.our-products-item h3 a {
+  color: var(--black-color) !important;
 }
 
 .price-rating {
@@ -908,7 +912,7 @@ a {
 .checkout-content-right {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 60%;
   margin-left: 1rem;
 }
 
@@ -975,4 +979,124 @@ a {
 .billing-icons img {
   margin-left: 0.6rem;
   width: 28px;
+}
+
+/* PRODUCT COMPONENT CSS */
+.product-comp .container {
+  padding: 4rem 0;
+}
+
+.product-comp-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-comp-content {
+  width: 100%;
+  height: 100%;
+}
+
+.product-img {
+  width: 85%;
+  height: 100%;
+}
+
+.product-img img {
+  width: 90%;
+  /* height: 100%; */
+}
+
+.product-details-wrapper {
+  width: 75%;
+}
+
+.product-comp-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.product-comp-details .ratings {
+  margin-left: 0 !important;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-comp-details .ratings .rating-stars {
+  font-size: 21px;
+}
+
+.product-comp-details .number-of-ratings p {
+  font-size: 16px;
+}
+
+.divider-prod {
+  background-color: var(--black-color);
+  padding: 0.05rem;
+  margin: 0 0.8rem;
+  height: 20px;
+}
+
+.prod-stock h3 {
+  color: #00ff66;
+}
+
+.product-comp-title p {
+  text-align: justify;
+  line-height: 22px;
+  padding: 0.8rem 0;
+}
+
+.products-selection-buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.product-selection {
+  display: flex;
+  align-items: center;
+}
+
+.selection-item {
+  height: 40px;
+  width: 60px;
+  border: 1px solid #2b2b2b27;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selection-item svg {
+  font-size: 14px;
+}
+
+.for-hover:hover {
+  background-color: var(--optional-color);
+  cursor: pointer;
+}
+
+.for-hover:hover svg {
+  color: white;
+}
+
+.prod-comp-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.prod-comp-btn button {
+  width: 40%;
+}
+
+.content-img {
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  align-items: center;
 }

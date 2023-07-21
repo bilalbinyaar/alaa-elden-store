@@ -63,7 +63,9 @@ const Cart = () => {
             <AiFillDelete className="del-btn-icon" />
           </div>
           <div className="cart-btn">
-            <button>Return to Shop</button>
+            <Link to="/shop">
+              <button>Return to Shop</button>
+            </Link>
           </div>
           <div className="cart-total">
             <div className="screen-title">
