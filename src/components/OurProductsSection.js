@@ -6,6 +6,7 @@ import p_4 from '../assets/products/p-4.png';
 import p_5 from '../assets/products/p-5.png';
 import p_6 from '../assets/products/p-6.png';
 import { AiFillStar } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 const OurProductsSection = () => {
   return (
@@ -23,9 +24,13 @@ const OurProductsSection = () => {
         <div className="our-products-wrapper">
           <div className="our-products-items mb-items">
             <div className="our-products-item">
-              <img src={p_2} alt="product" />
+              <Link to="/product">
+                <img src={p_2} alt="product" />
+              </Link>
               <button>Add to cart</button>
-              <h3>Lorem ipsum dolor</h3>
+              <h3>
+                <Link to="/product">Lorem ipsum dolor</Link>
+              </h3>
               <div className="price-rating">
                 <div className="product-price">
                   <p>$100</p>
@@ -53,9 +58,13 @@ const OurProductsSection = () => {
               </div>
             </div>
             <div className="our-products-item">
-              <img src={p_1} alt="product" />
+              <Link to="/product">
+                <img src={p_1} alt="product" />
+              </Link>
               <button>Add to cart</button>
-              <h3>Lorem ipsum dolor</h3>
+              <h3>
+                <Link to="/product">Lorem ipsum dolor</Link>
+              </h3>
               <div className="price-rating">
                 <div className="product-price">
                   <p>$100</p>
@@ -83,9 +92,13 @@ const OurProductsSection = () => {
               </div>
             </div>
             <div className="our-products-item">
-              <img src={p_2} alt="product" />
+              <Link to="/product">
+                <img src={p_2} alt="product" />
+              </Link>
               <button>Add to cart</button>
-              <h3>Lorem ipsum dolor</h3>
+              <h3>
+                <Link to="/product">Lorem ipsum dolor</Link>
+              </h3>
               <div className="price-rating">
                 <div className="product-price">
                   <p>$100</p>
@@ -113,9 +126,13 @@ const OurProductsSection = () => {
               </div>
             </div>
             <div className="our-products-item">
-              <img src={p_3} alt="product" />
+              <Link to="/product">
+                <img src={p_3} alt="product" />
+              </Link>
               <button>Add to cart</button>
-              <h3>Lorem ipsum dolor</h3>
+              <h3>
+                <Link to="/product">Lorem ipsum dolor</Link>
+              </h3>
               <div className="price-rating">
                 <div className="product-price">
                   <p>$100</p>
@@ -145,9 +162,13 @@ const OurProductsSection = () => {
           </div>
           <div className="our-products-items .mb-items">
             <div className="our-products-item">
-              <img src={p_4} alt="product" />
+              <Link to="/product">
+                <img src={p_4} alt="product" />
+              </Link>
               <button>Add to cart</button>
-              <h3>Lorem ipsum dolor</h3>
+              <h3>
+                <Link to="/product">Lorem ipsum dolor</Link>
+              </h3>
               <div className="price-rating">
                 <div className="product-price">
                   <p>$100</p>
@@ -175,9 +196,13 @@ const OurProductsSection = () => {
               </div>
             </div>
             <div className="our-products-item">
-              <img src={p_5} alt="product" />
+              <Link to="/product">
+                <img src={p_5} alt="product" />
+              </Link>
               <button>Add to cart</button>
-              <h3>Lorem ipsum dolor</h3>
+              <h3>
+                <Link to="/product">Lorem ipsum dolor</Link>
+              </h3>
               <div className="price-rating">
                 <div className="product-price">
                   <p>$100</p>
@@ -205,9 +230,13 @@ const OurProductsSection = () => {
               </div>
             </div>
             <div className="our-products-item">
-              <img src={p_6} alt="product" />
+              <Link to="/product">
+                <img src={p_6} alt="product" />
+              </Link>
               <button>Add to cart</button>
-              <h3>Lorem ipsum dolor</h3>
+              <h3>
+                <Link to="/product">Lorem ipsum dolor</Link>
+              </h3>
               <div className="price-rating">
                 <div className="product-price">
                   <p>$100</p>
@@ -235,9 +264,13 @@ const OurProductsSection = () => {
               </div>
             </div>
             <div className="our-products-item">
-              <img src={p_1} alt="product" />
+              <Link to="/product">
+                <img src={p_1} alt="product" />
+              </Link>
               <button>Add to cart</button>
-              <h3>Lorem ipsum dolor</h3>
+              <h3>
+                <Link to="/product">Lorem ipsum dolor</Link>
+              </h3>
               <div className="price-rating">
                 <div className="product-price">
                   <p>$100</p>
@@ -266,7 +299,9 @@ const OurProductsSection = () => {
             </div>
           </div>
           <div className="view-all">
-            <button>View All Products</button>
+            <button>
+              <Link to="/shop">View All Products</Link>
+            </button>
           </div>
         </div>
       </div>

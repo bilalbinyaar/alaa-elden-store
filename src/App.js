@@ -10,6 +10,7 @@ import Contact from './screens/Contact';
 import Login from './screens/Login';
 import Cart from './screens/Cart';
 import Checkout from './screens/Checkout';
+import Product from './screens/Product';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/product" element={<Product />} />
       </Routes>
       <Footer />
     </React.Fragment>

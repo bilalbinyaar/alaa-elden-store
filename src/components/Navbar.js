@@ -8,7 +8,9 @@ const Navbar = () => {
       <div className="container">
         <div className="nav-wrapper">
           <div className="nav-logo">
-            <h2>Alaa Elden</h2>
+            <h2>
+              <Link to="/">Alaa Elden</Link>
+            </h2>
           </div>
           <div className="nav-links">
             <ul className="nav-ul">

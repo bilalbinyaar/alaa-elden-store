@@ -175,6 +175,10 @@ a {
   align-items: center;
 }
 
+.nav-logo h2 a {
+  color: var(--black-colors) !important;
+}
+
 .nav-ul {
   display: flex;
 }
