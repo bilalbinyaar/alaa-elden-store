@@ -9,6 +9,7 @@ import Shop from './screens/Shop';
 import Contact from './screens/Contact';
 import Login from './screens/Login';
 import Cart from './screens/Cart';
+import Checkout from './screens/Checkout';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
       <Footer />
     </React.Fragment>

@@ -7,6 +7,7 @@ import {
 import thumbImg from '../assets/products/p-1.png';
 import thumbImg1 from '../assets/products/p-2.png';
 import thumbImg2 from '../assets/products/p-3.png';
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
   return (
@@ -81,7 +82,9 @@ const Cart = () => {
               <h3>$1000</h3>
             </div>
             <div className="check-out-btn">
-              <button className="btn-co">Proceed to checkout</button>
+              <button className="btn-co">
+                <Link to="/checkout">Proceed to checkout</Link>
+              </button>
             </div>
           </div>
         </div>
