@@ -8,7 +8,13 @@ import p_5 from '../assets/products/p-5.png';
 import p_6 from '../assets/products/p-6.png';
 import { Link } from 'react-router-dom';
 import { AiFillStar } from 'react-icons/ai';
+import Box from '@mui/material/Box';
+import Slider from '@mui/material/Slider';
 
+
+function valuetext(value) {
+  return `${value}°C`;
+}
 const ShopComp = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
 
@@ -46,7 +52,42 @@ const ShopComp = () => {
       <div className="container">
         <div className="shop-wrapper">
           <div className="search-fiters">
-            <h1>Filters</h1>
+            <form className='filters-form'>
+              <h2>Categories</h2>
+                <input type="checkbox" id="cat1" name="cat1" value="Tools"/>
+                <label for="cat1"> Tools</label><br/>
+                <input type="checkbox" id="cat2" name="cat2" value="Parts"/>
+                <label for="cat2"> Parts</label><br/>
+                <input type="checkbox" id="cat3" name="cat3" value="Hardware"/>
+                <label for="cat3"> Hardware</label><br/><br/>
+              <h2>Manufacturer</h2>
+                <input type="checkbox" id="manu1" name="manu1" value="Apple"/>
+                <label for="manu1"> Apple</label><br/>
+                <input type="checkbox" id="manu2" name="manu2" value="Samsung"/>
+                <label for="manu2"> Samsung</label><br/>
+                <input type="checkbox" id="manu3" name="manu3" value="Techno"/>
+                <label for="manu3"> Techno</label><br/>
+                <input type="checkbox" id="manu4" name="manu4" value="Realme"/>
+                
+                
+                <label for="manu4"> Realme</label><br/><br/>
+              <h2>Select Price</h2>
+                
+                <Box sx={{ width: 200 }}>
+                  <Slider
+                    aria-label="Temperature"
+                    defaultValue={30}
+                    getAriaValueText={valuetext}
+                    valueLabelDisplay="auto"
+                    step={10}
+                    marks
+                    min={10}
+                    max={110}
+                  />
+                </Box>
+                <input type="submit" value="Search"/>
+                
+                        </form>
           </div>
           <div className="fiterable-shop">
             <div className="categories">

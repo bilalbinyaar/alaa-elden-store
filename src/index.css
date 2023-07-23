@@ -1146,4 +1146,26 @@ a {
   width: 200px;
 }
 
-/* TEST */
+.filters-form h2 {
+  padding-bottom: 1rem;
+}
+
+.filters-form input {
+  margin-bottom: 0.8rem;
+}
+
+.filters-form input[type='submit'] {
+  border: none;
+  background-color: var(--optional-color);
+  color: var(--white-color);
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+  margin-top: 1rem;
+}
+
+.filters-form input[type='submit']:hover {
+  background-color: var(--black-color);
+  transition: 0.5s all ease-in-out;
+}
