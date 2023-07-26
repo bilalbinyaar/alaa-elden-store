@@ -11,6 +11,8 @@ import Login from './screens/Login';
 import Cart from './screens/Cart';
 import Checkout from './screens/Checkout';
 import Product from './screens/Product';
+import AdminLogin from './screens/AdminLogin';
+import DashboardPage from './components/admin/DashboardPage';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/admin" element={<AdminLogin />} />
+        <Route path="/dashboard" element={<DashboardPage />} />
       </Routes>
       <Footer />
     </React.Fragment>

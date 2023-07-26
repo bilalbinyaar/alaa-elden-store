@@ -1169,3 +1169,50 @@ a {
   background-color: var(--black-color);
   transition: 0.5s all ease-in-out;
 }
+
+/* ADMIN LOGIN CSS */
+.admin-login .container {
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* min-height: 50vh; */
+}
+
+.admin-login-wrapper {
+  width: 100%;
+}
+
+.admin-login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0rem;
+}
+
+.admin-login-form input {
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.2rem;
+  width: 50%;
+}
+
+.admin-login-form input:focus {
+  outline: none;
+}
+
+.admin-login-form input[type='submit'] {
+  width: 30%;
+  background-color: var(--optional-color);
+  color: var(--white-color);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+  border: none;
+}
+
+.admin-login-form input[type='submit']:hover {
+  background-color: var(--black-color);
+  transition: 0.5s all ease-in-out;
+}
